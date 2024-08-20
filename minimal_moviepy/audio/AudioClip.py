@@ -2,10 +2,10 @@ import os
 
 import numpy as np
 
-from moviepy.Clip import Clip
-from moviepy.tools import extensions_dict
-from moviepy.decorators import requires_duration
-from moviepy.audio.io.ffmpeg_audiowriter import ffmpeg_audiowrite
+from minimal_moviepy.Clip import Clip
+from minimal_moviepy.tools import extensions_dict
+from minimal_moviepy.decorators import requires_duration
+from minimal_moviepy.audio.io.ffmpeg_audiowriter import ffmpeg_audiowrite
 
 
 class AudioClip(Clip):

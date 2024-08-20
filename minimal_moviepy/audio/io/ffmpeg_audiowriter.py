@@ -1,8 +1,8 @@
 import os
 import subprocess as sp
 
-from moviepy.config import get_setting
-from moviepy.decorators import requires_duration
+from minimal_moviepy.config import get_setting
+from minimal_moviepy.decorators import requires_duration
 
 
 class FFMPEG_AudioWriter:
