@@ -29,10 +29,6 @@ requires = [
     "numpy>=1.17.3,<=1.24.3; python_version!='2.7'",
     ]
 
-# Load the README.
-with open('README.rst', 'r', 'utf-8') as f:
-    readme = f.read()
-
 setup(
     name='minimal_moviepy',
     version=__version__,
